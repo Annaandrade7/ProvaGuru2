@@ -21,7 +21,7 @@ class Progm
                 "\n 4 - Sair ");
             int opcao = Convert.ToInt32(Console.ReadLine());
 
-            if( opcao == 1 )
+            if (opcao == 1 )
             {
                 Console.WriteLine("Nos informe seu nome:");
                 listFun.Add(Console.ReadLine());
@@ -35,10 +35,37 @@ class Progm
                 Console.WriteLine("Nos informe sua Data de Nascimento:");
                 listFun.Add(Convert.ToDateTime(Console.ReadLine()));
 
+                Console.WriteLine("Nos informe seu Sexo:");
+                listFun.Add(Console.ReadLine());
 
+                Console.WriteLine("Agora nos informe seu Salario:");
+                listFun.Add(Convert.ToDouble(Console.ReadLine());
             }
+            else if (opcao == 2)
+            {
+                Console.WriteLine("Nos informe seu nome:");
+                listMed.Add(Console.ReadLine());
 
-            else if(opcao == 4)
+                Console.WriteLine("Nos Informe seu Cpf:");
+                listMed.Add(Console.ReadLine());
+
+                Console.WriteLine("Nos informe sua Matricula:");
+                listMed.Add(Console.ReadLine());
+
+                Console.WriteLine("Nos informe sua Data de Nascimento:");
+                listMed.Add(Convert.ToDateTime(Console.ReadLine()));
+
+                Console.WriteLine("Nos informe seu Sexo:");
+                listMed.Add(Console.ReadLine());
+
+                Console.WriteLine("Agora nos informe seu Salario:");
+                double valor = Convert.ToDouble(Console.ReadLine());
+
+                double beneficio = valor + (valor * 0,02);
+
+                Console.WriteLine(&"Seu salario com beneficio é de ]");
+            }
+            else if (opcao == 4)
             {
                 Console.WriteLine("Até a proxima!");
                 Console.Clear();
