@@ -15,7 +15,7 @@ namespace GuruDev2._0.Programas
         public string Sexo { get; set; }
         public double Salario { get; set; }
 
-        public override Funcionario(string nome, string cpf, string matricula,
+        public Funcionario(string nome, string cpf, string matricula,
             DateOnly dataNas, string sexo, double salario)
         {
             this.Nome = nome;

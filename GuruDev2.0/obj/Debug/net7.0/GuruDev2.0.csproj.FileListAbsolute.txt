@@ -1,0 +1,5 @@
+C:\Users\2022102020079\source\repos\GuruDev2.0\GuruDev2.0\obj\Debug\net7.0\GuruDev2.0.csproj.AssemblyReference.cache
+C:\Users\2022102020079\source\repos\GuruDev2.0\GuruDev2.0\obj\Debug\net7.0\GuruDev2.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2022102020079\source\repos\GuruDev2.0\GuruDev2.0\obj\Debug\net7.0\GuruDev2.0.AssemblyInfoInputs.cache
+C:\Users\2022102020079\source\repos\GuruDev2.0\GuruDev2.0\obj\Debug\net7.0\GuruDev2.0.AssemblyInfo.cs
+C:\Users\2022102020079\source\repos\GuruDev2.0\GuruDev2.0\obj\Debug\net7.0\GuruDev2.0.csproj.CoreCompileInputs.cache

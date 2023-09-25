@@ -4,8 +4,8 @@ class Progm
 {
     static void Main(string[] args)
     {
-
         List<Funcionario> listFun = new List<Funcionario>();
+        listFun = new List<Funcionario>();
 
         List<Medico> listMed = new List<Medico>();
         
@@ -24,15 +24,27 @@ class Progm
             if( opcao == 1 )
             {
                 Console.WriteLine("Nos informe seu nome:");
-                nome = Console.ReadLine();
+                listFun.Add(Console.ReadLine());
+
+                Console.WriteLine("Nos Informe seu Cpf:");
+                listFun.Add(Console.ReadLine());
+
+                Console.WriteLine("Nos informe sua Matricula:");
+                listFun.Add(Console.ReadLine());
+
+                Console.WriteLine("Nos informe sua Data de Nascimento:");
+                listFun.Add(Convert.ToDateTime(Console.ReadLine()));
+
+
             }
 
-
-            if(opcao == 4)
+            else if(opcao == 4)
             {
                 Console.WriteLine("Até a proxima!");
-                
+                Console.Clear();
+
             }
+            
         }
 
     }
